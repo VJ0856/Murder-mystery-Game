@@ -13,7 +13,9 @@ st.set_page_config(
 )
 
 # Get Gemini API Key from environment variable
-API_KEY = os.getenv("GEMINI_API_KEY")
+import streamlit as st
+
+API_KEY = st.secrets["GEMINI_API_KEY"]
 if not API_KEY:
     st.error("❌ API Key Missing! Please set the GEMINI_API_KEY environment variable.")
     st.stop()
