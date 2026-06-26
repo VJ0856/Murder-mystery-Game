@@ -1,6 +1,7 @@
 # 🕵️ Murder Mystery Investigation Game
 
 A dynamic, AI-powered murder mystery game available in both console and web versions!
+Live Demo Link: https://murder-mystery-game-queqptdszgf8nbfcf3ldad.streamlit.app/
 
 ## 🎮 Two Versions Available
 
