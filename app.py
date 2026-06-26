@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import random
 import os
-import google.genai as genai
+import google.generativeai as genai
 
 # Page configuration
 st.set_page_config(
